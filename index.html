@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/materialize.js"> </script>
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="apple-touch-icon" href="/image/icons/icon-96x96.png"/>
+    <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+    <meta name="theme-color" content="#ffe1c4">
+</head>
+<body class="grey lighten-4">
+    <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+        <a href="/">Food</a>
+        <span class="right grey-text text-darken-1">
+            <i 
+            class="fa fa-bars fa-2x sidenav-trigger" 
+            data-target="side-menu"></i>
+        </span>
+    </div>
+</nav>
+
+<ul id="side-menu" class="sidenav side-menu">
+    <li><a  class="subheader">Sagar</a></li>
+    <li><a href="/" class="waves-effect">Home</a></li>
+    <li><a href="/pages/about.html" class="waves-effect">Profile</a></li>
+    <li><div class="divider"></div></li>
+    <li>
+        <a href="/pages/contact.html" class="waves-effect">Contact</a>
+        
+    </li>
+</ul>
+
+<div class="recipes grey-text text-darken-1">
+    <div class="card-panel recipe white row">
+        <img src="/image/as.jpg" alt="">
+        <div class="recipe-details">
+            <div class="recipe-title">
+                Mutter paneer
+            </div>
+            <div class="recipe-ingredients">
+                Edage
+            </div>
+        </div>
+        <div class="recipe-delete">
+            <i class="fa fa-cross">Delete</i>
+
+        </div>
+    </div>
+    <div class="card-panel recipe white row">
+        <img src="/image/as.jpg" alt="">
+        <div class="recipe-details">
+            <div class="recipe-title">
+                Mutter paneer
+            </div>
+            <div class="recipe-ingredients">
+                Edage
+            </div>
+        </div>
+        <div class="recipe-delete">
+            <i class="fa fa-cross">Delete</i>
+
+        </div>
+    </div>
+    <div class="card-panel recipe white row">
+        <img src="/image/as.jpg" alt="">
+        <div class="recipe-details">
+            <div class="recipe-title">
+                Mutter paneer
+            </div>
+            <div class="recipe-ingredients">
+                Edage
+            </div>
+        </div>
+        <div class="recipe-delete">
+            <i class="fa fa-cross">Delete</i>
+
+        </div>
+    </div>
+    <div class="card-panel recipe white row">
+        <img src="/image/as.jpg" alt="">
+        <div class="recipe-details">
+            <div class="recipe-title">
+                Mutter paneer
+            </div>
+            <div class="recipe-ingredients">
+                Edage
+            </div>
+        </div>
+        <div class="recipe-delete">
+            <i class="fa fa-cross">Delete</i>
+
+        </div>
+    </div>
+</div>
+
+<div class="center">
+    <a data-target="side-form" class="btn-floating btn-small  add-btn sidenav-trigger">
+        <i class="fa fa-plus"></i>
+    </a>
+</div>
+<div id="side-form" class="sidenav side-form">
+    <form action="" class="add-recipe container section">
+        <h4>New Recipe</h4>
+        <div class="divider"></div>
+        <div class="input-field">
+            <input placeholder="Name of the food" type="text" id="title" class="validate">
+            <label for="title">Recipe title</label>
+        </div>
+        <div class="input-field">
+            <input placeholder="Enter Ingredients" type="text" id="ingredients" class="validate">
+            <label for="ingredients">Ingredients</label>
+        </div>
+        <div class="input-field center">
+            <button class="btn-small">Add</button>
+        </div>
+        
+    </form>
+</div>
+<script src="/js/App.js"></script>
+<script src="/js/script.js"></script>
+</body>
+    
+</html>
